@@ -8,6 +8,6 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-    # service-url -> user service application ? Eureka server ? ?? ? client ??? ?? application, ? ? server ? ??? ???? property
+    # service-url -> user service application 은 Eureka server 에 등록 될 client 역할을 하는 application, 이 때 server 의 위치를 지정하는 property
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka
